@@ -1,0 +1,6 @@
+[cosmic-ray]
+module = "email_validator"
+baseline = "pytest email_validator_test.py"
+timeout = 30
+exclude-modules = []
+test-command = "pytest email_validator_test.py"
